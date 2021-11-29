@@ -6,13 +6,13 @@ Gamer:Button("~ Press Right Shift To Hide GUI ~");
 function LoadMe(link)
     loadstring(game:HttpGet(link))()
 end
-Gamer:Button("Gui 1")", function()
+Gamer:Button("Gui 1", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/SupBabe/Hentai/main/YBA.lua")()
 end)
-Gamer:Button("Gui 2")", function()
+Gamer:Button("Gui 2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
 end)
-Gamer:Button("Gui 3")", function()
+Gamer:Button("Gui 3", function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/KanekiCow/gamehubvaliant/main/yba.lua'))()
 end)
 library:Ready();
