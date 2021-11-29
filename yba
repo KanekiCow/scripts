@@ -6,13 +6,17 @@ Gamer:Button("~ Press Right Shift To Hide GUI ~");
 function LoadMe(link)
     loadstring(game:HttpGet(link))()
 end
-Gamer:Button("Gui 1", function()
-loadstring(game:HttpGet"https://raw.githubusercontent.com/SupBabe/Hentai/main/YBA.lua")()
+
+Gamer:Button("Pilot Any Stand!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lmmake/jojo-/main/Yba%20pilot"))()
 end)
-Gamer:Button("Gui 2", function()
+Gamer:Button("Auto Farm GUI", function()
+ loadstring(game:HttpGet(("https://aizen.ml/uploads/yba.txt")))()
+end)
+Gamer:Button("Xenon GUI", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/Xenon-X-ATJS'))() 
+end)
+Gamer:Button("NexHub(need key)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
-end)
-Gamer:Button("Gui 3", function()
- loadstring(game:HttpGet('https://raw.githubusercontent.com/KanekiCow/gamehubvaliant/main/yba.lua'))()
 end)
 library:Ready();
